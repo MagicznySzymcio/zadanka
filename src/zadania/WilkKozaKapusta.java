@@ -1,6 +1,7 @@
 package zadania;
 
 import java.util.*;
+
 class WilkKozaKapusta
 {
     public static void main(String[] args) throws CloneNotSupportedException
@@ -29,7 +30,7 @@ class WilkKozaKapusta
 class Stan implements Cloneable
 {
     private boolean wilk, koza, kapusta;
-    private static Random losuj = new Random();
+    private static final Random losuj = new Random();
     boolean stanKoncowy() // czy stan koncowy ?
     {
         return wilk && koza && kapusta;
