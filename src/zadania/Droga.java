@@ -18,7 +18,6 @@ public class Droga {
     static int czas = Integer.MAX_VALUE;
     static int temp_czas = 0;
     public static int[] ustawienie;
-    static int temp_czas2;
 
     public static void main(String[] args) {
         permutacje(0);
@@ -32,7 +31,6 @@ public class Droga {
                 temp_czas += lody[L[j] - 1][L[j+1] - 1];
             }
             if (temp_czas < czas) {
-                temp_czas2 = temp_czas;
                 czas = temp_czas;
                 ustawienie = L;
             }

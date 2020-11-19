@@ -3,7 +3,7 @@ package zadania;
 public class KrolikiIDyn {
     public static void main(String[] args)
     {
-        final int N = 5; // n-ty wyraz ciągu
+        final int N = 8; // n-ty wyraz ciągu
         System.out.println(fibo(N));
     }
     static int fibo(int n)
