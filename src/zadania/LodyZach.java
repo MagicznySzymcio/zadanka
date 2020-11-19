@@ -1,5 +1,7 @@
 package zadania;
 
+import java.util.Arrays;
+
 public class LodyZach {
     final static int N = 6;
     final static int[][] lody = {{0, 7, 20, 21, 12, 23},
@@ -11,6 +13,7 @@ public class LodyZach {
 
     public static int gentest(int poz_startowa)    {
         boolean [] wykorzystane = {false, false, false, false, false, false};
+        int[] sciezka = {poz_startowa + 1, 0, 0, 0, 0, 0, poz_startowa + 1};
         int poz_pocz = poz_startowa;
         int wyk = 1;
         int temp = 0;
@@ -28,14 +31,16 @@ public class LodyZach {
             wyk++;
             poz_startowa = temp;
             czas += min;
+            sciezka[wyk-1] = temp+1;
         }
         czas += lody[poz_startowa][poz_pocz];
+        System.out.println(Arrays.toString(sciezka));
         return czas;
     }
 
 
     public static void main(String[] args) {
-        System.out.println(gentest(1));
-
+        for (int i = 0; i<6; i++)
+            System.out.println(gentest(i));
     }
 }
