@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd13f730-5f91-4fa7-ac78-d4b88bcd0280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zadania/Bakterie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zadania/LososiePodzial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zadania/LososiePodzial.java" afterDir="false" />
+    <list default="true" id="dd13f730-5f91-4fa7-ac78-d4b88bcd0280" name="Default Changelist" comment="Cos tam działa xd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zadanka/zadania/Epidemia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zadanka/zadania/Epidemia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zadania/Epidemia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zadania/Epidemia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.DrogaZachlannie">
+  <component name="RunManager" selected="Application.Epidemia">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -91,8 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Epidemia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zadania.Epidemia" />
+      <module name="zadanka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadania.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Epidemia" />
         <item itemvalue="Application.DrogaZachlannie" />
         <item itemvalue="Application.Astronauci2" />
       </list>
@@ -125,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605873580011</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cos tam działa xd">
+      <created>1605875460326</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605875460326</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="tak" />
-    <option name="LAST_COMMIT_MESSAGE" value="tak" />
+    <MESSAGE value="Cos tam działa xd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cos tam działa xd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1605873698360">
@@ -157,31 +180,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="587" y="85" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1605873579414" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1605828404760">
-      <screen x="0" y="0" width="1920" height="1034" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605876801751">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1605828404760" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1605828404760">
-      <screen x="0" y="0" width="1920" height="1034" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605876801751" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605876801751">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1605828404760" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1605828404760">
-      <screen x="0" y="0" width="1920" height="1034" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605876801751" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605876801751">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1605828404760" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1605828404760">
-      <screen x="0" y="0" width="1920" height="1034" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605876801751" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605876801751">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1605828404760" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605876801751" />
     <state x="773" y="237" key="RollbackChangesDialog" timestamp="1605870949351">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="773" y="237" key="RollbackChangesDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1605870949351" />
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1605873582180">
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1605875464674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1605828073346" />
     <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1605873582180" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605875464674" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605873121520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
