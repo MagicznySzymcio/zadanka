@@ -13,12 +13,12 @@ public class Epidemia {
 
     public static void main(String[] args){
 
-        while(zarazeni != 0){
+        while(zarazeni > 0){
                 if(warunek == 0) {
                     zarazeni = zarazeni + zarazeni * 2;
                     dzien++;
                     if (dzien >= 6) {
-                        zarazeni = zarazeni - zarazeni_pocz * 2 ^ count;
+                        zarazeni = zarazeni - zarazeni_pocz * (int)Math.pow(2, count);
                         count++;
                     }
                     if(zarazeni >= populacja){
@@ -27,14 +27,14 @@ public class Epidemia {
                     }
                 }else{
                     if (dzien >= 6) {
-                        zarazeni = zarazeni - zarazeni_pocz * 2 ^ count;
+                        zarazeni = zarazeni - zarazeni_pocz * (int)Math.pow(2, count);
                         count++;
                     }
                     dzien++;
                 }
             System.out.println(dzien + " " + zarazeni);
         }
-        System.out.println(zarazeni);
+        System.out.println();
 
     }
 
