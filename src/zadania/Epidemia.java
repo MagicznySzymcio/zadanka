@@ -1,41 +1,36 @@
 package zadania;
 
 public class Epidemia {
+    static int dni=1;
+    static int[] tab= new int[10000];
+    static int ozdrowiency = 0;
+    static int ludnosc=100000;
+    static int epidemia(int n){
 
-    static int populacja = 100000;
-    static int zarazeni = 10;
-    static int zarazeni_pocz = 10;
-    static int dzien = 0;
-    static int count = 0;
-    static int max = 0;
-    static int maxint = Integer.MAX_VALUE;
-    static int warunek = 0;
-
-    public static void main(String[] args){
-
-        while(zarazeni > 0){
-                if(warunek == 0) {
-                    zarazeni = zarazeni + zarazeni * 2;
-                    dzien++;
-                    if (dzien >= 6) {
-                        zarazeni = zarazeni - zarazeni_pocz * (int)Math.pow(2, count);
-                        count++;
-                    }
-                    if(zarazeni >= populacja){
-                        zarazeni = populacja - zarazeni_pocz * (int)Math.pow(2, count);
-                        warunek = 1;
-                    }
-                }else{
-                    if (dzien >= 6) {
-                        zarazeni = zarazeni - zarazeni_pocz * (int)Math.pow(2, count);
-                        count++;
-                    }
-                    dzien++;
-                }
-            System.out.println(dzien + " " + zarazeni);
+        if(dni>7){
+            n=n-tab[dni-7];
+            ludnosc=ludnosc-tab[dni-7];
+            ozdrowiency=+tab[dni-7];
         }
-        System.out.println();
 
+        while(ludnosc>n){
+            System.out.printf("Dzien "+dni);
+            System.out.println(" Ludnosc ktora moze zachorowac "+ludnosc);
+            System.out.printf(" chorzy " +n);
+            System.out.printf(" ozdrowiency "+ozdrowiency);
+            System.out.println("");
+            tab[dni]=n;
+            dni++;
+            return epidemia(n + 2*n);
+        }
+        return n; }
+
+
+
+
+    public static void main(String [] args){
+        System.out.println(epidemia(10));
     }
+
 
 }
