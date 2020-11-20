@@ -11,12 +11,12 @@ public class Koronokatar {
 
     public static int epidemia(int dzien) {
         if (dzien == 0) {
-            przebieg[dzien] = 10;
+            przebieg[l_dni] = 10;
             return 10;
         }
         else {
             zakazeni += zakazeni * 2;
-            przebieg[dzien] = zakazeni;
+            przebieg[dzien - 1] = zakazeni;
             return epidemia(dzien-1);
         }
     }

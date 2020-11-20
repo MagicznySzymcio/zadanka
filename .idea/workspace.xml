@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd13f730-5f91-4fa7-ac78-d4b88bcd0280" name="Default Changelist" comment="Cos tam działa xd">
+    <list default="true" id="dd13f730-5f91-4fa7-ac78-d4b88bcd0280" name="Default Changelist" comment="katar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zadanka/zadania/Epidemia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zadanka/zadania/Epidemia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zadania/Epidemia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zadania/Epidemia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zadania/Koronokatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zadania/Koronokatar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Epidemia">
+  <component name="RunManager" selected="Application.Koronokatar">
     <configuration name="Astronauci2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zadania.Astronauci2" />
       <module name="zadanka" />
@@ -92,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Koronokatar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zadania.Koronokatar" />
+      <module name="zadanka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadania.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -107,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Koronokatar" />
         <item itemvalue="Application.Epidemia" />
         <item itemvalue="Application.DrogaZachlannie" />
         <item itemvalue="Application.Astronauci2" />
@@ -147,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605875460326</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="katar">
+      <created>1605877179105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605877179105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +189,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="tak" />
     <MESSAGE value="Cos tam działa xd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cos tam działa xd" />
+    <MESSAGE value="katar" />
+    <option name="LAST_COMMIT_MESSAGE" value="katar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1605873698360">
@@ -180,40 +201,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="587" y="85" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1605873579414" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605876801751">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1605877365071">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1605828404760" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1605877365071" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605876801751" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605876801751">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1605877365071">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1605828404760" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1605877365071" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605876801751" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605876801751">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1605877365071">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1605828404760" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1605877365071" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605876801751" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605876801751">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1605877365071">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1605828404760" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1605877365071" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605876801751" />
     <state x="773" y="237" key="RollbackChangesDialog" timestamp="1605870949351">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="773" y="237" key="RollbackChangesDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1605870949351" />
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1605875464674">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1605877188299">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1605828073346" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1605877188299" />
     <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1605873582180" />
     <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605875464674" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605873121520">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="777" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605877165543">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="777" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1034@0.0.1920.1034" timestamp="1605871262525" />
+    <state x="777" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1034@0.0.1920.1034" timestamp="1605877165543" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1605873121520" />
   </component>
 </project>
