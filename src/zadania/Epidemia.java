@@ -22,7 +22,7 @@ public class Epidemia {
                         count++;
                     }
                     if(zarazeni >= populacja){
-                        zarazeni = populacja;
+                        zarazeni = populacja - zarazeni_pocz * (int)Math.pow(2, count);
                         warunek = 1;
                     }
                 }else{
