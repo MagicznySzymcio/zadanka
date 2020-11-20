@@ -15,7 +15,7 @@ public class Epidemia {
 
         while(ludnosc>n){
             System.out.printf("Dzien "+dni);
-            System.out.println(" Ludnosc ktora moze zachorowac "+ludnosc);
+            System.out.println(" Ludnosc ktora moze zachorowac "+(ludnosc-n));
             System.out.printf(" chorzy " +n);
             System.out.printf(" ozdrowiency "+ozdrowiency);
             System.out.println("");
